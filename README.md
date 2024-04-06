@@ -15,3 +15,28 @@
 [API 명세](https://github.com/NoJaeHyuk/ticket-reservation/wiki/API-%EB%AA%85%EC%84%B8)  
 
 
+## 패키지 구성 
+발제때 나온 내용으로 api와 domain을 따로 분리하는 구조로 아키텍쳐를 구성했습니다. 
+아직 클린 아키텍쳐 구조를 많이 안써봐서 여러 형태를 경험에 보면서 학습 예정입니다.
+
+```
+api/
+  user/
+    dto/
+      request, response
+    userController
+  payment/
+  reservation/
+  show/
+
+domain/
+  user/
+    model/
+    component/
+      repository/
+    infrastructure/
+  payment/
+  reservation/
+  show/
+
+```
