@@ -40,3 +40,28 @@ domain/
   show/
 
 ```
+
+## Swagger 설정 
+
+- Build.gradle
+```
+dependencies {
+    ...
+
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.4.0'
+
+    ...
+}
+```
+
+- application.yml
+```
+ springdoc:
+  api-docs:
+    path: /api-docs
+    groups:
+      enabled: true
+```
+
+![image](https://github.com/NoJaeHyuk/ticket-reservation/assets/32382839/0c108742-7ce1-4c93-9361-8cc1d045679b)
+
