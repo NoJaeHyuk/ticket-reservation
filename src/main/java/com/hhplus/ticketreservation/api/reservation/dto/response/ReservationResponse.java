@@ -1,4 +1,4 @@
-package com.hhplus.ticketreservation.api.show.dto.response;
+package com.hhplus.ticketreservation.api.reservation.dto.response;
 
 public class ReservationResponse {
 

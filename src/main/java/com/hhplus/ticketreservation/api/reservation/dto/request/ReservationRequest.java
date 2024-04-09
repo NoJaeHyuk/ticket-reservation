@@ -1,4 +1,4 @@
-package com.hhplus.ticketreservation.api.show.dto.request;
+package com.hhplus.ticketreservation.api.reservation.dto.request;
 
 public class ReservationRequest {
 
