@@ -22,3 +22,6 @@ springdoc:
     path: /api-docs
     groups:
       enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
