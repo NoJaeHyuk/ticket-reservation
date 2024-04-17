@@ -1,4 +1,4 @@
-package com.hhplus.ticketreservation.domain.user.model;
+package com.hhplus.ticketreservation.domain.auth.model;
 
 import com.hhplus.ticketreservation.common.domain.BaseEntity;
 import jakarta.persistence.*;

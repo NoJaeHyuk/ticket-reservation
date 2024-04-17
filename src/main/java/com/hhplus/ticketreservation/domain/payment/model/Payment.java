@@ -5,7 +5,7 @@ import com.hhplus.ticketreservation.domain.payment.model.enums.PaymentStatus;
 import com.hhplus.ticketreservation.domain.payment.model.enums.PaymentType;
 import com.hhplus.ticketreservation.domain.show.model.Seat;
 import com.hhplus.ticketreservation.domain.show.model.ShowRound;
-import com.hhplus.ticketreservation.domain.user.model.User;
+import com.hhplus.ticketreservation.domain.auth.model.User;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Getter;
